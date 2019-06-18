@@ -1,4 +1,6 @@
-<img src="https://github.com/GeekTree0101/RxVIPTemplate/blob/master/resources/logo.png" />
+<p align="center">
+  <img src="https://github.com/GeekTree0101/RxVIPTemplate/blob/master/resources/logo.png" />
+</p>
 
 Clean Swift Template built on ReactiveX & Texture(AsyncDisplayKit)
 
