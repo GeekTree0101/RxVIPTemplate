@@ -17,9 +17,9 @@ protocol ___VARIABLE_sceneName___RouterLogic {
     func dismissViewController()
 }
 
-protocol  ___VARIABLE_sceneName___DataPassing {
+protocol ___VARIABLE_sceneName___DataPassing {
     
-    var dataStore: ___VARIABLE_sceneName___DataStore { get set }
+    var dataStore: ___VARIABLE_sceneName___DataStore? { get set }
 }
 
 class ___VARIABLE_sceneName___Router: ___VARIABLE_sceneName___DataPassing {
@@ -38,3 +38,4 @@ extension ___VARIABLE_sceneName___Router: ___VARIABLE_sceneName___RouterLogic {
         
     }
 }
+ㄴ

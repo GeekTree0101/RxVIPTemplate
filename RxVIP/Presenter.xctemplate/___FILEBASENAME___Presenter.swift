@@ -15,7 +15,7 @@ protocol ___VARIABLE_sceneName___PresenterOutputLogic {
     var output: Driver<___VARIABLE_sceneName___Models.Model.ViewModel> { get }
 }
 
-final class ___VARIABLE_sceneName___Presenter: ___VARIABLE_sceneName___PresenterInputLogic {
+final class ___VARIABLE_sceneName___Presenter {
     
     public var interactor: ___VARIABLE_sceneName___InteractorOutputLogic!
 }
