@@ -11,15 +11,16 @@ import AsyncDisplayKit
 import RxSwift
 import RxCocoa
 
-class ___VARIABLE_sceneName___ViewController: ASViewController<ASDisplayNode> {
+class ___VARIABLE_sceneName___ViewController: BaseASViewController {
+
+    // MARK: VIP
 
     public var presenter: ___VARIABLE_sceneName___PresenterOutputLogic?
     public var interactor: ___VARIABLE_sceneName___InteractorInputLogic?
     public var router: (___VARIABLE_sceneName___RouterLogic & ___VARIABLE_sceneName___DataPassing)?
-    private let disposeBag = DisposeBag()
-
-    init() {
-        super.init(node: ASDisplayNode.init())
+    
+    override init() {
+        super.init()
         self.setupVIPCycle()
     }
 
@@ -33,12 +34,10 @@ class ___VARIABLE_sceneName___ViewController: ASViewController<ASDisplayNode> {
         let presenter = ___VARIABLE_sceneName___Presenter.init()
         let router = ___VARIABLE_sceneName___Router.init()
 
-        // setup VIP cycle
         presenter.interactor = interactor
         viewController.presenter = presenter
         viewController.interactor = interactor
 
-        // setup router
         router.viewController = viewController
         router.dataStore = interactor
         viewController.router = router

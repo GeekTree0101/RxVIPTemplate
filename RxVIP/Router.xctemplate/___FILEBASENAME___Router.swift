@@ -19,13 +19,17 @@ protocol ___VARIABLE_sceneName___RouterLogic {
 
 protocol ___VARIABLE_sceneName___DataPassing {
     
-    var dataStore: ___VARIABLE_sceneName___DataStore? { get set }
+    var dataStore: ___VARIABLE_sceneName___DataStore { get set }
 }
 
 class ___VARIABLE_sceneName___Router: ___VARIABLE_sceneName___DataPassing {
     
-    weak var viewController: UIViewController?
-    public var dataStore: ___VARIABLE_sceneName___DataStore?
+    public weak var viewController: UIViewController?
+    public var dataStore: ___VARIABLE_sceneName___DataStore
+
+    init(dataStore: ___VARIABLE_sceneName___DataStore) {
+        self.dataStore = dataStore
+    }
 }
 
 extension ___VARIABLE_sceneName___Router: ___VARIABLE_sceneName___RouterLogic {
@@ -38,4 +42,3 @@ extension ___VARIABLE_sceneName___Router: ___VARIABLE_sceneName___RouterLogic {
         
     }
 }
-ㄴ
