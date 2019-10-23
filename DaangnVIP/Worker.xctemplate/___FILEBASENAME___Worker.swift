@@ -10,7 +10,11 @@
 import RxSwift
 import RxCocoa
 
-class ___VARIABLE_sceneName___Worker {
+protocol ___VARIABLE_sceneName___WorkerLogic: class {
+
+}
+
+final class ___VARIABLE_sceneName___Worker: ___VARIABLE_sceneName___WorkerLogic {
   
   func doSomeWork() {
 

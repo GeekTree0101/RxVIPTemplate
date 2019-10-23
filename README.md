@@ -1,8 +1,4 @@
-<p align="center">
-  <img src="https://github.com/GeekTree0101/RxVIPTemplate/blob/master/resources/logo.png" />
-</p>
-
-Clean Swift Template built on ReactiveX & Texture(AsyncDisplayKit)
+# Daangn Market Clean Swift Template
 
 # Install
 To install the RxCleanSwift Xcode templates, run:
@@ -18,9 +14,7 @@ To uninstall the RxCleanSwift Xcode templates, run:
 - [ ] Define Routing Logic
 
 # Requirements
-- Xcode ~> 8.0
-- RxSwift ~> 4.0
-- RxCocoa ~> 4.0
+- Xcode ~> 9.0
 - Texture(AsyncDisplayKit) ~> 2.6
 
 # More

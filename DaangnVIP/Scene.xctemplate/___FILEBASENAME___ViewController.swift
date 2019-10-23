@@ -8,15 +8,16 @@
 //
 
 import AsyncDisplayKit
-import RxSwift
-import RxCocoa
+
+protocol ___VARIABLE_sceneName___DisplayLogic: class {
+
+}
 
 class ___VARIABLE_sceneName___ViewController: BaseASViewController {
 
     // MARK: VIP
 
-    public var presenter: ___VARIABLE_sceneName___PresenterOutputLogic?
-    public var interactor: ___VARIABLE_sceneName___InteractorInputLogic?
+    public var interactor: ___VARIABLE_sceneName___InteractorLogic?
     public var router: (___VARIABLE_sceneName___RouterLogic & ___VARIABLE_sceneName___DataPassing)?
     
     override init() {
@@ -35,11 +36,17 @@ class ___VARIABLE_sceneName___ViewController: BaseASViewController {
         let router = ___VARIABLE_sceneName___Router.init()
 
         presenter.interactor = interactor
-        viewController.presenter = presenter
-        viewController.interactor = interactor
 
         router.viewController = viewController
         router.dataStore = interactor
+
+        viewController.interactor = interactor
         viewController.router = router
     }
+}
+
+// MARK: - Display Logic
+
+extension ___VARIABLE_sceneName___ViewController: ___VARIABLE_sceneName___DisplayLogic {
+
 }

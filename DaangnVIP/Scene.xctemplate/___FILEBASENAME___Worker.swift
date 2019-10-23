@@ -7,15 +7,17 @@
 //
 //
 
-import XCTest
-import RxTest
-
 import RxSwift
 import RxCocoa
 
-@testable import ___PROJECTNAME___
+protocol ___VARIABLE_sceneName___WorkerLogic: class {
 
-class ___VARIABLE_sceneName___PresenterTests: XCTestCase {
+}
+
+final class ___VARIABLE_sceneName___Worker: ___VARIABLE_sceneName___WorkerLogic {
   
+  func doSomeWork() {
+
+  }
   
 }
