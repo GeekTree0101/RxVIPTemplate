@@ -9,10 +9,6 @@ To uninstall the RxCleanSwift Xcode templates, run:
 
 > make uninstall
 
-# TODO
-- [ ] Unit Test xctemplate with Quick & Nimble
-- [ ] Define Routing Logic
-
 # Requirements
 - Xcode ~> 9.0
 - Texture(AsyncDisplayKit) ~> 2.6
