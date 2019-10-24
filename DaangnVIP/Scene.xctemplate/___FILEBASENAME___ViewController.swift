@@ -17,32 +17,35 @@ class ___VARIABLE_sceneName___ViewController: BaseASViewController {
 
     // MARK: VIP
 
-    public var interactor: ___VARIABLE_sceneName___InteractorLogic?
-    public var router: (___VARIABLE_sceneName___RouterLogic & ___VARIABLE_sceneName___DataPassing)?
-    
-    override init() {
-        super.init()
-        self.setupVIPCycle()
-    }
+  public var interactor: ___VARIABLE_sceneName___InteractorLogic?
+  public var router: (___VARIABLE_sceneName___RouterLogic & ___VARIABLE_sceneName___DataPassing)?
 
-    required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
+  override init() {
+    super.init()
+    self.setupVIPCycle()
+  }
 
-    private func setupVIPCycle() {
-        let viewController = self
-        let interactor = ___VARIABLE_sceneName___Interactor.init()
-        let presenter = ___VARIABLE_sceneName___Presenter.init()
-        let router = ___VARIABLE_sceneName___Router.init()
+  required init?(coder aDecoder: NSCoder) {
+    fatalError("init(coder:) has not been implemented")
+  }
 
-        presenter.interactor = interactor
+  private func setupVIPCycle() {
+    let viewController = self
+    let interactor = ___VARIABLE_sceneName___Interactor.init()
+    let presenter = ___VARIABLE_sceneName___Presenter.init()
+    let router = ___VARIABLE_sceneName___Router.init()
 
-        router.viewController = viewController
-        router.dataStore = interactor
+    interactor.presenter = presenter
+    interactor.worker = ___VARIABLE_sceneName___Worker.init()
 
-        viewController.interactor = interactor
-        viewController.router = router
-    }
+    presenter.view = viewController
+
+    router.viewController = viewController
+    router.dataStore = interactor
+
+    viewController.interactor = interactor
+    viewController.router = router
+  }
 }
 
 // MARK: - Display Logic

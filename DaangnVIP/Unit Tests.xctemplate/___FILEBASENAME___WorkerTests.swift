@@ -10,29 +10,26 @@
 import XCTest
 import RxTest
 
-import RxSwift
-import RxCocoa
-
-@testable import ___PROJECTNAME___
+@testable import daangna
 
 class ___VARIABLE_sceneName___WorkerTests: XCTestCase {
 
-    var worker: ___VARIABLE_sceneName___Worker!
+  var worker: ___VARIABLE_sceneName___Worker!
   
-    override func setUp() {
-        self.worker = ___VARIABLE_sceneName___Worker.init()
-    }
+  override func setUp() {
+    self.worker = ___VARIABLE_sceneName___Worker.init()
+  }
 }
 
 // MARK: - TODO TestName (BDD)
 
-extension ___VARIABLE_sceneName___PresenterTests {
+extension ___VARIABLE_sceneName___WorkerTests {
 
-    func test_doSomething() {
-        // given
+  func test_doSomething() {
+    // given
 
-        // when
+    // when
 
-        // then
-    }
+    // then
+  }
 }

@@ -19,8 +19,8 @@ protocol ___VARIABLE_sceneName___DataStore: class {
 
 final class ___VARIABLE_sceneName___Interactor: ___VARIABLE_sceneName___DataStore {
 
-    public var worker: ___VARIABLE_sceneName___WorkerLogic?
-    public var presenter: ___VARIABLE_sceneName___PresenterLogic?
+  public var worker: ___VARIABLE_sceneName___WorkerLogic?
+  public var presenter: ___VARIABLE_sceneName___PresenterLogic?
     
 }
 

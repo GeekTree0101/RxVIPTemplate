@@ -8,18 +8,18 @@
 
 struct ___VARIABLE_sceneName___Models {
 
-    struct Model {
+  struct Model {
         
-        struct Request {
+    struct Request {
 
-        }
-
-        struct Response {
-
-        }
-
-        struct ViewModel {
-          
-        }
     }
+
+    struct Response {
+
+    }
+
+    struct ViewModel {
+          
+    }
+  }
 }

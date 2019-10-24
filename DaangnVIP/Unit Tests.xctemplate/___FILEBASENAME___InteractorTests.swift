@@ -10,41 +10,41 @@
 import XCTest
 import Nimble
 
-@testable import ___PROJECTNAME___
+@testable import daangna
 
 class ___VARIABLE_sceneName___InteractorTests: XCTestCase {
     
-    var interactor: ___VARIABLE_sceneName___Interactor!
+  var interactor: ___VARIABLE_sceneName___Interactor!
 
-    class Spy_Presenter: ___VARIABLE_sceneName___PresenterLogic {
+  class Spy_Presenter: ___VARIABLE_sceneName___PresenterLogic {
 
-        // var somethingCalled: Int = 0
-    }
+    // var somethingCalled: Int = 0
+  }
 
-    class Spy_Worker: ___VARIABLE_sceneName___WorkerLogic {
+  class Spy_Worker: ___VARIABLE_sceneName___WorkerLogic {
 
-        // var somethingCalled: Int = 0
-    }
+    // var somethingCalled: Int = 0
+  }
 
-    override func setUp() {
-        self.interactor = ___VARIABLE_sceneName___Interactor.init()
-    }
+  override func setUp() {
+    self.interactor = ___VARIABLE_sceneName___Interactor.init()
+  }
 }
 
 // MARK: - TODO TestName (BDD)
 
 extension ___VARIABLE_sceneName___InteractorTests {
 
-    func test_doSomething() {
-        // given
-        let presenter = Spy_Presenter.init()
-        let worker = Spy_Worker.init()
+  func test_doSomething() {
+    // given
+    let presenter = Spy_Presenter.init()
+    let worker = Spy_Worker.init()
 
-        self.interactor.presenter = presenter
-        self.interactor.worker = worker
+    self.interactor.presenter = presenter
+    self.interactor.worker = worker
 
-        // when
+    // when
 
-        // then
-    }
+    // then
+  }
 }
