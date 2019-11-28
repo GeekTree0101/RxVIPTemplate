@@ -13,7 +13,7 @@ protocol ___VARIABLE_sceneName___PresenterLogic: class {
 
 }
 
-final class ___VARIABLE_sceneName___Presenter: StartKarrotPresenterLogic {
+final class ___VARIABLE_sceneName___Presenter: ___VARIABLE_sceneName___PresenterLogic {
 
   weak var view: ___VARIABLE_sceneName___DisplayLogic?
 
