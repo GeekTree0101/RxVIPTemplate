@@ -9,10 +9,11 @@
 
 import XCTest
 import Nimble
+import Quick
 
 @testable import daangna
 
-class ___VARIABLE_sceneName___InteractorTests: XCTestCase {
+class ___VARIABLE_sceneName___InteractorSpec: QuickSpec {
 
   // MARK: - Test Double Objects
 
@@ -35,25 +36,28 @@ class ___VARIABLE_sceneName___InteractorTests: XCTestCase {
   
   var interactor: ___VARIABLE_sceneName___Interactor!
 
-  override func setUp() {
-    self.interactor = ___VARIABLE_sceneName___Interactor.init()
+  override func spec() {
+
+    describe("TODO usecase") {
+
+      context("TODO behavior") {
+
+        beforeEach() {
+          // given
+          self.interactor = ___VARIABLE_sceneName___Interactor.init()
+
+        }
+
+        it("TODO then") {
+          // when
+
+          // then
+
+        }
+      }
+
+    }
+
   }
-}
-
-// MARK: - TODO TestName (BDD)
-
-extension ___VARIABLE_sceneName___InteractorTests {
-
-  func test_doSomething() {
-    // given
-    let presenter = ___VARIABLE_sceneName___PresenterSpy.init()
-    let worker = ___VARIABLE_sceneName___WorkerSpy.init()
-
-    self.interactor.presenter = presenter
-    self.interactor.worker = worker
-
-    // when
-
-    // then
-  }
+  
 }

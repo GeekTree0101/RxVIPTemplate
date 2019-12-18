@@ -9,10 +9,11 @@
 
 import XCTest
 import Nimble
+import Quick
 
 @testable import daangna
 
-class ___VARIABLE_sceneName___PresenterTests: XCTestCase {
+class ___VARIABLE_sceneName___PresenterSpec: QuickSpec {
 
   // MARK: - Test Double Objects
 
@@ -24,24 +25,29 @@ class ___VARIABLE_sceneName___PresenterTests: XCTestCase {
   // MARK: - Props
   
   var presenter: ___VARIABLE_sceneName___Presenter!
+  
+  override func spec() {
 
-  override func setUp() {
-    self.presenter = ___VARIABLE_sceneName___Presenter.init()
+    describe("TODO usecase") {
+
+      context("TODO behavior") {
+
+        beforeEach() {
+          // given
+          self.presenter = ___VARIABLE_sceneName___Presenter.init()
+
+        }
+
+        it("TODO then") {
+          // when
+
+          // then
+
+        }
+      }
+
+    }
+
   }
-}
-
-// MARK: - TODO TestName (BDD)
-
-extension ___VARIABLE_sceneName___PresenterTests {
-
-  func test_doSomething() {
-    // given
-    let displayer = ___VARIABLE_sceneName___DisplaySpy.init()
-
-    self.presenter.view = displayer
-
-    // when
-
-    // then
-  }
+    
 }

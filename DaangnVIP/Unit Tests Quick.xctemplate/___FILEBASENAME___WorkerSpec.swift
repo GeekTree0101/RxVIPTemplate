@@ -9,10 +9,11 @@
 
 import XCTest
 import Nimble
+import Quick
 
 @testable import daangna
 
-class ___VARIABLE_sceneName___WorkerTests: XCTestCase {
+class ___VARIABLE_sceneName___WorkerSpec: QuickSpec {
 
   // MARK: - Test Double Objects
 
@@ -27,21 +28,29 @@ class ___VARIABLE_sceneName___WorkerTests: XCTestCase {
   // MARK: - Props
 
   var worker:  ___VARIABLE_sceneName___WorkerSpy!
+
+  override func spec() {
+
+    describe("TODO usecase") {
+
+      context("TODO behavior") {
+
+        beforeEach() {
+          // given
+          self.worker =  ___VARIABLE_sceneName___WorkerSpy.init()
+
+        }
+
+        it("TODO then") {
+          // when
+
+          // then
+
+        }
+      }
+
+    }
+
+  }
   
-  override func setUp() {
-    self.worker =  ___VARIABLE_sceneName___WorkerSpy.init()
-  }
-}
-
-// MARK: - TODO TestName (BDD)
-
-extension ___VARIABLE_sceneName___WorkerTests {
-
-  func test_doSomething() {
-    // given
-
-    // when
-
-    // then
-  }
 }

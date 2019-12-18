@@ -7,14 +7,7 @@
 //
 //
 
-import RxSwift
-import RxCocoa
-
-protocol ___VARIABLE_sceneName___WorkerLogic: class {
-
-}
-
-final class ___VARIABLE_sceneName___Worker: ___VARIABLE_sceneName___WorkerLogic {
+class ___VARIABLE_sceneName___Worker {
   
   func doSomeWork() {
 
