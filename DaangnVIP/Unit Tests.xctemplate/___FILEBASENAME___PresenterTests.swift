@@ -24,9 +24,12 @@ class ___VARIABLE_sceneName___PresenterTests: XCTestCase {
   // MARK: - Props
   
   var presenter: ___VARIABLE_sceneName___Presenter!
+  var display: ___VARIABLE_sceneName___DisplaySpy!
 
   override func setUp() {
-    self.presenter = ___VARIABLE_sceneName___Presenter.init()
+    self.presenter = ___VARIABLE_sceneName___Presenter()
+    self.display = ___VARIABLE_sceneName___DisplaySpy()
+    self.presenter.view = self.display
   }
 }
 
@@ -36,9 +39,6 @@ extension ___VARIABLE_sceneName___PresenterTests {
 
   func test_doSomething() {
     // given
-    let displayer = ___VARIABLE_sceneName___DisplaySpy.init()
-
-    self.presenter.view = displayer
 
     // when
 

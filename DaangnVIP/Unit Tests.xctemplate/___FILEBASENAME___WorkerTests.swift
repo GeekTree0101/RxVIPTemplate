@@ -29,7 +29,7 @@ class ___VARIABLE_sceneName___WorkerTests: XCTestCase {
   var worker:  ___VARIABLE_sceneName___WorkerSpy!
   
   override func setUp() {
-    self.worker =  ___VARIABLE_sceneName___WorkerSpy.init()
+    self.worker =  ___VARIABLE_sceneName___WorkerSpy()
   }
 }
 

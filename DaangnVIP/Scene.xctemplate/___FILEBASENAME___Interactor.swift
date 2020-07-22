@@ -27,7 +27,7 @@ final class ___VARIABLE_sceneName___Interactor: ___VARIABLE_sceneName___DataStor
   }
 }
 
-// MARK: - ___VARIABLE_sceneName___BusinessLogic
+// MARK: - Business Logic
 
 extension ___VARIABLE_sceneName___Interactor: ___VARIABLE_sceneName___BusinessLogic {
 

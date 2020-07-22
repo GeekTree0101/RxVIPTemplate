@@ -22,7 +22,7 @@ final class ___VARIABLE_sceneName___Presenter {
   }
 }
 
-// MARK: - ___VARIABLE_sceneName___PresentationLogic
+// MARK: - Presentation Logic
 
 extension ___VARIABLE_sceneName___Presenter: ___VARIABLE_sceneName___PresentationLogic {
 
