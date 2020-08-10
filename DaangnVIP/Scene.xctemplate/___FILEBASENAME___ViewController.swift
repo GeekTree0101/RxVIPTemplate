@@ -17,8 +17,8 @@ class ___VARIABLE_sceneName___ViewController: BaseASViewController {
 
   // MARK: - VIP
 
-  public var router: (___VARIABLE_sceneName___RoutingLogic & ___VARIABLE_sceneName___DataPassing)?
-  private var interactor: ___VARIABLE_sceneName___BusinessLogic?
+  var router: (___VARIABLE_sceneName___RoutingLogic & ___VARIABLE_sceneName___DataPassing)?
+  var interactor: ___VARIABLE_sceneName___BusinessLogic?
 
   // MARK: - Initializing
 
