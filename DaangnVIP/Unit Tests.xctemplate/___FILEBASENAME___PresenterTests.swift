@@ -12,11 +12,11 @@ import Nimble
 
 @testable import daangna
 
-class ___VARIABLE_sceneName___PresenterTests: XCTestCase {
+final class ___VARIABLE_sceneName___PresenterTests: XCTestCase {
   
   // MARK: - Test Double Objects
   
-  class ___VARIABLE_sceneName___DisplaySpy: ___VARIABLE_sceneName___DisplayLogic {
+  final class ___VARIABLE_sceneName___DisplaySpy: ___VARIABLE_sceneName___DisplayLogic {
     
     // var somethingOutput: ViewModel? 
   }

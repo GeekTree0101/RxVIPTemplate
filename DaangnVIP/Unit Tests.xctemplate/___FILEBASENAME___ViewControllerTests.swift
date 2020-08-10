@@ -12,17 +12,17 @@ import Nimble
 
 @testable import daangna
 
-class ___VARIABLE_sceneName___ViewControllerTests: XCTestCase {
+final class ___VARIABLE_sceneName___ViewControllerTests: XCTestCase {
 
   // MARK: - Test Double Objects
 
-  class ___VARIABLE_sceneName___InteractorSpy: ___VARIABLE_sceneName___BusinessLogic {
+  final class ___VARIABLE_sceneName___InteractorSpy: ___VARIABLE_sceneName___BusinessLogic {
 
     // var somethingCalled: Int = 0
     // func something() { ... }
   }
 
-  class ___VARIABLE_sceneName___RouterSpy: ___VARIABLE_sceneName___RoutingLogic, ___VARIABLE_sceneName___DataPassing {
+  final class ___VARIABLE_sceneName___RouterSpy: ___VARIABLE_sceneName___RoutingLogic, ___VARIABLE_sceneName___DataPassing {
     var dataStore: ___VARIABLE_sceneName___DataStore?
 
     // var somethingCalled: Int = 0
