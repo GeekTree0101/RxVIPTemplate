@@ -20,15 +20,14 @@ class ___VARIABLE_sceneName___InteractorTests: XCTestCase {
 
     // var somethingCalled: Int = 0
     // var somethingStub: Value?
-
   }
 
-  class ___VARIABLE_sceneName___WorkerSpy: ___VARIABLE_sceneName___Worker {
+  class ___VARIABLE_sceneName___WorkerSpy: ___VARIABLE_sceneName___WorkerLogic {
 
     // var somethingCalled: Int = 0
     // var somethingStub: Value?
 
-    // override func something() { ... }
+    // func something() { ... }
   }
 
   // MARK: - Props
