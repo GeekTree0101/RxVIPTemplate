@@ -10,16 +10,16 @@ enum ___VARIABLE_sceneName___Models {
 
   enum Model {
 
-    struct Req {
+    struct Request {
 
     }
 
-    struct Res {
+    struct Response {
 
     }
 
     struct ViewModel {
-          
+
     }
   }
 }

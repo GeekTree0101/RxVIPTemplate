@@ -12,20 +12,20 @@ import Nimble
 
 @testable import daangna
 
-class ___VARIABLE_sceneName___PresenterTests: XCTestCase {
-
+final class ___VARIABLE_sceneName___PresenterTests: XCTestCase {
+  
   // MARK: - Test Double Objects
-
-  class ___VARIABLE_sceneName___DisplaySpy: ___VARIABLE_sceneName___DisplayLogic {
-
+  
+  final class ___VARIABLE_sceneName___DisplaySpy: ___VARIABLE_sceneName___DisplayLogic {
+    
     // var somethingOutput: ViewModel? 
   }
-
+  
   // MARK: - Props
   
   var presenter: ___VARIABLE_sceneName___Presenter!
   var display: ___VARIABLE_sceneName___DisplaySpy!
-
+  
   override func setUp() {
     self.presenter = ___VARIABLE_sceneName___Presenter()
     self.display = ___VARIABLE_sceneName___DisplaySpy()
@@ -36,12 +36,12 @@ class ___VARIABLE_sceneName___PresenterTests: XCTestCase {
 // MARK: - TODO TestName (BDD)
 
 extension ___VARIABLE_sceneName___PresenterTests {
-
+  
   func test_doSomething() {
     // given
-
+    
     // when
-
+    
     // then
   }
 }
