@@ -19,7 +19,7 @@ protocol ___VARIABLE_sceneName___DataStore: class {
 
 final class ___VARIABLE_sceneName___Interactor: ___VARIABLE_sceneName___DataStore {
 
-  var worker: ___VARIABLE_sceneName___Worker?
+  var worker: ___VARIABLE_sceneName___WorkerLogic?
   var presenter: ___VARIABLE_sceneName___PresentationLogic?
 
   deinit {
