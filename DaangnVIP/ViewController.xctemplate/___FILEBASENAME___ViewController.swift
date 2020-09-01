@@ -35,12 +35,12 @@ final class ___VARIABLE_sceneName___ViewController: BaseASViewController {
 
   private func configure() {
     let viewController = self
-    let interactor = ___VARIABLE_sceneName___Interactor.init()
-    let presenter = ___VARIABLE_sceneName___Presenter.init()
-    let router = ___VARIABLE_sceneName___Router.init()
+    let interactor = ___VARIABLE_sceneName___Interactor()
+    let presenter = ___VARIABLE_sceneName___Presenter()
+    let router = ___VARIABLE_sceneName___Router()
 
     interactor.presenter = presenter
-    interactor.worker = ___VARIABLE_sceneName___Worker.init()
+    interactor.worker = ___VARIABLE_sceneName___Worker()
 
     presenter.view = viewController
 
