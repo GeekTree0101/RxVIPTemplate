@@ -4,12 +4,12 @@
 <dict>
 	<key>DefaultCompletionName</key>
 	<string>MyScene</string>
-  <key>Description</key>
-  <string>This generates unit tests for your scene using Uncle Bob's clean architecture. It consists of three test files for view controller, interactor, and presenter.</string>
-  <key>Kind</key>
-  <string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
-  <key>Options</key>
-  <array>
+	<key>Description</key>
+	<string>This generates unit tests for your scene using Uncle Bob&apos;s clean architecture. It consists of three test files for view controller, interactor, and presenter.</string>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>Options</key>
+	<array>
 		<dict>
 			<key>Description</key>
 			<string>The name of the scene to create tests for</string>
@@ -24,29 +24,29 @@
 			<key>Type</key>
 			<string>text</string>
 		</dict>
-    <dict>
+		<dict>
 			<key>Default</key>
 			<string>___VARIABLE_sceneName:identifier___</string>
 			<key>Identifier</key>
 			<string>productName</string>
 			<key>Type</key>
 			<string>static</string>
-    </dict>
-    <dict>
+		</dict>
+		<dict>
 			<key>Default</key>
-			<string>___VARIABLE_sceneName:identifier___WorkerTests</string>
+			<string>___VARIABLE_sceneName:identifier___ViewControllerTests</string>
 			<key>Description</key>
-			<string>The worker tests name</string>
+			<string>The viewcontroller tests name</string>
 			<key>Identifier</key>
 			<string>viewControllerTestsName</string>
 			<key>Name</key>
-			<string>Worker Tests Name:</string>
+			<string>ViewController Tests Name:</string>
 			<key>Required</key>
 			<true/>
 			<key>Type</key>
 			<string>static</string>
-    </dict>
-    <dict>
+		</dict>
+		<dict>
 			<key>Default</key>
 			<string>___VARIABLE_sceneName:identifier___InteractorTests</string>
 			<key>Description</key>
@@ -59,8 +59,8 @@
 			<true/>
 			<key>Type</key>
 			<string>static</string>
-    </dict>
-    <dict>
+		</dict>
+		<dict>
 			<key>Default</key>
 			<string>___VARIABLE_sceneName:identifier___PresenterTests</string>
 			<key>Description</key>
@@ -73,15 +73,15 @@
 			<true/>
 			<key>Type</key>
 			<string>static</string>
-    </dict>
-  </array>
-  <key>Platforms</key>
-  <array>
+		</dict>
+	</array>
+	<key>Platforms</key>
+	<array>
 		<string>com.apple.platform.iphoneos</string>
-  </array>
+	</array>
 	<key>SortOrder</key>
 	<string>1</string>
-  <key>Summary</key>
-  <string>This generates unit tests for your scene using Uncle Bob's clean architecture.</string>
+	<key>Summary</key>
+	<string>This generates unit tests for your scene using Uncle Bob&apos;s clean architecture.</string>
 </dict>
 </plist>
