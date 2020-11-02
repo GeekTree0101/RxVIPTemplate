@@ -14,7 +14,7 @@ import Nimble
 
 final class ___VARIABLE_sceneName___ViewControllerTests: XCTestCase {
 
-  // MARK: - Test Double Objects
+  // MARK: Test Double Objects
 
   final class ___VARIABLE_sceneName___InteractorSpy: ___VARIABLE_sceneName___BusinessLogic {
 
@@ -29,7 +29,8 @@ final class ___VARIABLE_sceneName___ViewControllerTests: XCTestCase {
     // func something() { ... }
   }
 
-  // MARK: - Props
+
+  // MARK: Properties
 
   var viewController: ___VARIABLE_sceneName___ViewController!
   var interactor: ___VARIABLE_sceneName___InteractorSpy!
@@ -43,6 +44,7 @@ final class ___VARIABLE_sceneName___ViewControllerTests: XCTestCase {
     self.viewController.router = self.router
   }
 }
+
 
 // MARK: - TODO TestName (BDD)
 

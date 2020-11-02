@@ -14,14 +14,15 @@ import Nimble
 
 final class ___VARIABLE_sceneName___PresenterTests: XCTestCase {
   
-  // MARK: - Test Double Objects
+  // MARK: Test Double Objects
   
   final class ___VARIABLE_sceneName___DisplaySpy: ___VARIABLE_sceneName___DisplayLogic {
     
     // var somethingOutput: ViewModel? 
   }
   
-  // MARK: - Props
+
+  // MARK: Properties
   
   var presenter: ___VARIABLE_sceneName___Presenter!
   var display: ___VARIABLE_sceneName___DisplaySpy!
@@ -32,6 +33,7 @@ final class ___VARIABLE_sceneName___PresenterTests: XCTestCase {
     self.presenter.view = self.display
   }
 }
+
 
 // MARK: - TODO TestName (BDD)
 

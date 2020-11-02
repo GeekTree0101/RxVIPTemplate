@@ -15,12 +15,13 @@ protocol ___VARIABLE_sceneName___DisplayLogic: class {
 
 final class ___VARIABLE_sceneName___ViewController: BaseASViewController {
 
-  // MARK: - VIP
+  // MARK: VIP
 
   var router: (___VARIABLE_sceneName___RoutingLogic & ___VARIABLE_sceneName___DataPassing)?
   var interactor: ___VARIABLE_sceneName___BusinessLogic?
 
-  // MARK: - Initializing
+
+  // MARK: Initializing
 
   override init() {
     super.init()
@@ -31,7 +32,8 @@ final class ___VARIABLE_sceneName___ViewController: BaseASViewController {
     fatalError("init(coder:) has not been implemented")
   }
 
-  // MARK: - Configure
+
+  // MARK: Configuring
 
   private func configure() {
     let viewController = self
@@ -51,6 +53,7 @@ final class ___VARIABLE_sceneName___ViewController: BaseASViewController {
     viewController.router = router
   }
 }
+
 
 // MARK: - Display Logic
 

@@ -14,7 +14,7 @@ import Nimble
 
 final class ___VARIABLE_sceneName___WorkerTests: XCTestCase {
 
-  // MARK: - Test Double Objects
+  // MARK: Test Double Objects
 
   final class ___VARIABLE_sceneName___WorkerSpy: ___VARIABLE_sceneName___WorkerLogic {
 
@@ -24,7 +24,8 @@ final class ___VARIABLE_sceneName___WorkerTests: XCTestCase {
     // func something() { ... }
   }
 
-  // MARK: - Props
+
+  // MARK: Properties
 
   var worker:  ___VARIABLE_sceneName___WorkerSpy!
   
@@ -32,6 +33,7 @@ final class ___VARIABLE_sceneName___WorkerTests: XCTestCase {
     self.worker =  ___VARIABLE_sceneName___WorkerSpy()
   }
 }
+
 
 // MARK: - TODO TestName (BDD)
 

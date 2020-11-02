@@ -14,7 +14,7 @@ import Nimble
 
 final class ___VARIABLE_sceneName___InteractorTests: XCTestCase {
 
-  // MARK: - Test Double Objects
+  // MARK: Test Double Objects
 
   final class ___VARIABLE_sceneName___PresenterSpy: ___VARIABLE_sceneName___PresentationLogic {
 
@@ -30,7 +30,8 @@ final class ___VARIABLE_sceneName___InteractorTests: XCTestCase {
     // func something() { ... }
   }
 
-  // MARK: - Props
+
+  // MARK: Properties
   
   var interactor: ___VARIABLE_sceneName___Interactor!
   var presenter: ___VARIABLE_sceneName___PresenterSpy!
@@ -44,6 +45,7 @@ final class ___VARIABLE_sceneName___InteractorTests: XCTestCase {
     self.interactor.worker = self.worker
   }
 }
+
 
 // MARK: - TODO TestName (BDD)
 

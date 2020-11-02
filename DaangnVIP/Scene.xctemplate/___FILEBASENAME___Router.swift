@@ -28,6 +28,7 @@ final class ___VARIABLE_sceneName___Router: ___VARIABLE_sceneName___DataPassing 
   }
 }
 
+
 // MARK: - Routing Logic
 
 extension ___VARIABLE_sceneName___Router: ___VARIABLE_sceneName___RoutingLogic {
