@@ -1,9 +1,10 @@
 //___FILEHEADER___
 
 import XCTest
+
 import Nimble
 
-@testable import daangna
+@testable import Karrot
 
 final class ___VARIABLE_sceneName___WorkerTests: XCTestCase {
 
