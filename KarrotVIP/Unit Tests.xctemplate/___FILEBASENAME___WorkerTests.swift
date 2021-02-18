@@ -22,9 +22,9 @@ final class ___VARIABLE_sceneName___WorkerTests: XCTestCase {
   // MARK: Properties
 
   var worker:  ___VARIABLE_sceneName___WorkerSpy!
-  
+
   override func setUp() {
-    self.worker =  ___VARIABLE_sceneName___WorkerSpy()
+    self.worker = ___VARIABLE_sceneName___WorkerSpy()
   }
 }
 

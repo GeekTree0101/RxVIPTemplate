@@ -26,7 +26,7 @@ final class ___VARIABLE_sceneName___InteractorTests: XCTestCase {
 
 
   // MARK: Properties
-  
+
   var interactor: ___VARIABLE_sceneName___Interactor!
   var presenter: ___VARIABLE_sceneName___PresenterSpy!
   var worker: ___VARIABLE_sceneName___WorkerSpy!
@@ -34,7 +34,7 @@ final class ___VARIABLE_sceneName___InteractorTests: XCTestCase {
   override func setUp() {
     self.interactor = ___VARIABLE_sceneName___Interactor()
     self.presenter = ___VARIABLE_sceneName___PresenterSpy()
-    self.worker =  ___VARIABLE_sceneName___WorkerSpy()
+    self.worker = ___VARIABLE_sceneName___WorkerSpy()
     self.interactor.presenter = self.presenter
     self.interactor.worker = self.worker
   }
